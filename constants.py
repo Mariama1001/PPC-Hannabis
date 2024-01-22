@@ -1,1 +1,2 @@
-
+MIN_PLAYERS = 2
+MAX_PLAYERS = 5
