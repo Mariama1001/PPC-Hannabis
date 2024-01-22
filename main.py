@@ -37,7 +37,7 @@ Mutex = Lock()
 game_over = False
 current_player = 0
 
-def establish_player_connections(MIN_PLAYERS, MAX_PLAYERS, player_conn):
+def establish_player_connections(min_players, max_players, player_conn):
     # Crée une liste pour stocker les connexions de joueurs
     player_connections = []
 
