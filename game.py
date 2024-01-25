@@ -2,6 +2,9 @@ import multiprocessing
 import socket
 import pickle
 
+MAX_CONNECTION_THREADS = 5
+
+
 def game_process(num_players, player_conn):
     # Initialisation du jeu
     # ...
