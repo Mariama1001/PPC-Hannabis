@@ -24,3 +24,8 @@ Finally : run in separate terminals aplayer.py, you need to run it {number of pl
 
 Warning:The sysv_ipc module is not included in python. You can download it here:
 http://semanchuk.com/philip/sysv_ipc/
+
+Retrieve the compressed tar file of the latest release, uncompress it and issue the following command in the root directory of the release:
+login@hostame:~$ python3 setup.py install --user
+
+
